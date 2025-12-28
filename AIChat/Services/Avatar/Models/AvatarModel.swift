@@ -6,7 +6,7 @@
 //
 import Foundation
 
-struct AvatarModel {
+struct AvatarModel: Hashable {
 
     let avatarId: String
     let name: String?
@@ -97,4 +97,3 @@ enum CharacterLocation: String {
         .park
     }
 }
-
