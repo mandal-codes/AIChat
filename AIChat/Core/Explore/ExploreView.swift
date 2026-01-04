@@ -32,7 +32,7 @@ struct ExploreView: View {
                             subtitle: avatar.characterDescription,
                             imageName: avatar.profileImageName
                         )
-                        .anyButton() {
+                        .anyButton {
                             
                         }
                     }
