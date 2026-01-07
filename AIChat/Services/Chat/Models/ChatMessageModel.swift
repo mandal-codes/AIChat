@@ -23,11 +23,11 @@ struct ChatMessageModel {
         self.seenByIds = seenByIds
         self.dateCreated = dateCreated
     }
-    static var mock: ChatMessageModel {
+    static var mock: Self {
         mocks[0]
     }
 
-    static var mocks: [ChatMessageModel] {
+    static var mocks: [Self] {
         let now = Date()
 
         return [
