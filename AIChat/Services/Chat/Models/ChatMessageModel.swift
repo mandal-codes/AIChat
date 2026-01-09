@@ -70,14 +70,6 @@ struct ChatMessageModel: Identifiable {
                 content: "Got it. You are covered",
                 seenByIds: ["user_0001", "avatar_0002"],
                 dateCreated: now.adding(days: -2, hours: -5, minutes: -22)
-            ),
-            ChatMessageModel(
-                id: "msg_0006",
-                chatId: "chat_0004",
-                authorId: "user_0003",
-                content: "Quick check-in: how many steps today?",
-                seenByIds: ["user_0003"],
-                dateCreated: now.adding(hours: -12, minutes: -10)
             )
         ]
     }
